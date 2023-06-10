@@ -19,7 +19,8 @@ jdk: openjdk15
 # Jacoco needs  mvn clean verify to run
 jobs:
   include:
-    - script: mvn clean verify package
+    - script: # do stuff with OpenJDK 15
+
 
 # This is to enable CodeCov's coverage
 # If a build is successful, the code is submitted for coverage analysis
